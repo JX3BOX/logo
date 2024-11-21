@@ -46,7 +46,9 @@
         { "key": "body", "label": "体型数据", "remark": "" },
         { "key": "manufacture", "label": "技艺助手", "remark": "" },
         { "key": "price", "label": "价格走势", "remark": "" },
-        { "key": "gonggao", "label": "活动告示", "remark": "" }
+        { "key": "gonggao", "label": "活动告示", "remark": "" },
+        { "key": "wbl", "label": "万宝楼", "remark": "万宝楼（剑三）","link":"https://jx3.seasunwbl.com/buyer?t=coin" },
+        { "key": "wbl", "label": "万宝楼", "remark": "万宝楼（缘起）","link":"https://jx3yq.seasunwbl.com/buyer?t=coin" }
     ],
     "common": [
         { "key": "bbs", "label": "论坛", "remark": "" },
