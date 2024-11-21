@@ -20,9 +20,7 @@
         { "key": "drop", "label": "掉落查询", "remark": "" },
         { "key": "gem", "label": "瑰石查询", "remark": "" },
         { "key": "baizhan", "label": "百战查询", "remark": "" },
-        { "key": "bahuang", "label": "八荒衡鉴", "remark": "" },
-        { "key": "team", "label": "团队平台", "remark": "" },
-        { "key": "dbm", "label": "在线构建", "remark": "" }
+        { "key": "bahuang", "label": "八荒衡鉴", "remark": "" }
     ],
     "pvp": [
         { "key": "trick", "label": "连招技巧", "remark": "" },
@@ -55,6 +53,7 @@
         { "key": "tool", "label": "工具", "remark": "" },
         { "key": "database", "label": "剑三数据库", "remark": "" },
         { "key": "icon", "label": "图标大全", "remark": "" },
+        { "key": "dbm", "label": "在线构建", "remark": "" },
         { "key": "joke", "label": "骚话", "remark": "" },
         { "key": "emotion", "label": "趣图", "remark": "" },
         { "key": "collection", "label": "小册", "remark": "" },
@@ -67,6 +66,7 @@
     "other": [
         { "key": "mall", "label": "积分商城", "remark": "" },
         { "key": "vip", "label": "会员中心", "remark": "" },
+        { "key": "team", "label": "团队平台", "remark": "" },
         { "key": "treasure", "label": "奇遇珍卷", "remark": "" },
         { "key": "seniority", "label": "资历宝典", "remark": "" }
     ]
