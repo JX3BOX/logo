@@ -1,6 +1,73 @@
 {
-    "pve": {},
-    "pvp": {},
-    "pvx": {},
-    "common": {}
+    "pve": [
+        { "key": "macro", "label": "宏库", "remark": "" },
+        { "key": "bps", "label": "职业", "remark": "" },
+        { "key": "fb", "label": "副本", "remark": "" },
+        { "key": "pz", "label": "配装器", "remark": "" },
+        { "key": "jcl", "label": "日志分析", "remark": "" },
+        { "key": "battle", "label": "战斗统计", "remark": "" },
+        { "key": "talent", "label": "奇穴模拟器", "remark": "" },
+        { "key": "talent2", "label": "镇派模拟器", "remark": "" },
+        { "key": "meridians", "label": "静脉模拟器", "remark": "" },
+        { "key": "macroeditor", "label": "宏编辑器", "remark": "" },
+        { "key": "haste", "label": "加速阈值", "remark": "" },
+        { "key": "dps", "label": "计算器", "remark": "" },
+        { "key": "ladder", "label": "门派天梯", "remark": "" },
+        { "key": "skill", "label": "技能合集", "remark": "" },
+        { "key": "raw", "label": "技能大全", "remark": "" },
+        { "key": "changelog", "label": "技改历史", "remark": "" },
+        { "key": "lua", "label": "技能源码", "remark": "权限" },
+        { "key": "drop", "label": "掉落查询", "remark": "" },
+        { "key": "gem", "label": "瑰石查询", "remark": "" },
+        { "key": "baizhan", "label": "百战查询", "remark": "" },
+        { "key": "bahuang", "label": "八荒衡鉴", "remark": "" },
+        { "key": "team", "label": "团队平台", "remark": "" },
+        { "key": "dbm", "label": "在线构建", "remark": "" }
+    ],
+    "pvp": [
+        { "key": "trick", "label": "连招技巧", "remark": "" },
+        { "key": "kungfu", "label": "武学研习", "remark": "" },
+        { "key": "changelog", "label": "技改历史", "remark": "" },
+        { "key": "desert", "label": "绝境战场", "remark": "" },
+        { "key": "sandbox", "label": "沙盘查询", "remark": "" }
+    ],
+    "pvx": [
+        { "key": "cj", "label": "成就百科", "remark": "" },
+        { "key": "item", "label": "物品百科", "remark": "" },
+        { "key": "quest", "label": "任务百科", "remark": "" },
+        { "key": "knowledge", "label": "通识百科", "remark": "" },
+        { "key": "exterior", "label": "外观大全", "remark": "" },
+        { "key": "adventure", "label": "奇遇大全", "remark": "" },
+        { "key": "pet", "label": "宠物大全", "remark": "" },
+        { "key": "horse", "label": "坐骑大全", "remark": "" },
+        { "key": "furniture", "label": "家具大全", "remark": "" },
+        { "key": "reputation", "label": "声望大全", "remark": "" },
+        { "key": "book", "label": "书籍大全", "remark": "" },
+        { "key": "exam", "label": "考试大全", "remark": "" },
+        { "key": "face", "label": "捏脸数据", "remark": "" },
+        { "key": "body", "label": "体型数据", "remark": "" },
+        { "key": "manufacture", "label": "技艺助手", "remark": "" },
+        { "key": "price", "label": "价格走势", "remark": "" },
+        { "key": "gonggao", "label": "活动告示", "remark": "" }
+    ],
+    "common": [
+        { "key": "bbs", "label": "论坛", "remark": "" },
+        { "key": "tool", "label": "工具", "remark": "" },
+        { "key": "database", "label": "剑三数据库", "remark": "" },
+        { "key": "icon", "label": "图标大全", "remark": "" },
+        { "key": "joke", "label": "骚话", "remark": "" },
+        { "key": "emotion", "label": "趣图", "remark": "" },
+        { "key": "collection", "label": "小册", "remark": "" },
+        { "key": "namespace", "label": "铭牌", "remark": "" }
+    ],
+    "special": [
+        { "key": "topic", "label": "资料片专题", "remark": "" },
+        { "key": "event", "label": "魔盒活动", "remark": "" }
+    ],
+    "other": [
+        { "key": "mall", "label": "积分商城", "remark": "" },
+        { "key": "vip", "label": "会员中心", "remark": "" },
+        { "key": "treasure", "label": "奇遇珍卷", "remark": "" },
+        { "key": "seniority", "label": "资历宝典", "remark": "" }
+    ]
 }
