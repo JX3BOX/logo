@@ -1,0 +1,23 @@
+{
+  "name": "logo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JX3BOX/logo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JX3BOX/logo/issues"
+  },
+  "homepage": "https://github.com/JX3BOX/logo#readme",
+  "dependencies": {
+    "fs-extra": "^11.2.0"
+  }
+}

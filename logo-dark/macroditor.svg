@@ -1,0 +1,9 @@
+<svg id="图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+    <defs>
+        <style>.cls-1{fill:#ccc;}.cls-2{fill:#4080ff;}</style>
+    </defs>
+    <path class="cls-2"
+        d="M66.46,156.76l34.91-33.91L66.55,89l14-14-19.9-19.9L32.09,83.71V186.17H65.27l15.3-15.3Z" />
+    <path class="cls-1"
+        d="M207.38,186.17V55.11H60.68l67.82,67.82L65.27,186.17Zm-75.7-36.83h43.87v17.55H131.68Z" />
+</svg>

@@ -1,0 +1,11 @@
+<svg id="图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+    <defs>
+        <style>.cls-1{fill:#000;}.cls-2{fill:#000;}</style>
+    </defs>
+    <path class="cls-1" d="M158,37.28H56.3V202.72H158ZM111.11,144.17H73.66v-95h37.45Z" />
+    <rect class="cls-1" x="171.02" y="37.28" width="16.68" height="46.38" />
+    <rect class="cls-1" x="171.02" y="144.17" width="16.68" height="58.55" />
+    <rect class="cls-1" x="171.02" y="96.68" width="16.68" height="34.47" />
+    <polygon class="cls-2"
+        points="144.98 37.28 144.98 202.72 158 202.72 158 144.17 158 131.15 158 96.68 158 83.66 158 37.28 144.98 37.28" />
+</svg>

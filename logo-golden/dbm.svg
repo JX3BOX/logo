@@ -1,0 +1,12 @@
+<svg id="图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+    <defs>
+        <style>.cls-1{fill:#fedaa3;}.cls-2{fill:#4080ff;}</style>
+    </defs>
+    <path class="cls-2" d="M81.53,130.64v-37h-24v37a45.25,45.25,0,0,1,24,0Z" />
+    <path class="cls-2"
+        d="M187.07,105.05V60.26h-24v46l.08.7c0,.22,2.26,22.83-11.93,38.63-8.39,9.34-21.18,14.8-38.07,16.33a45.08,45.08,0,0,1,.24,24.08c24.19-1.81,43-10.07,55.91-24.62C189,139.24,187.53,110.4,187.07,105.05Z" />
+    <circle class="cls-1" cx="69.53" cy="174.38" r="33.36" />
+    <circle class="cls-1" cx="69.53" cy="72.26" r="33.36" />
+    <circle class="cls-1" cx="175.07" cy="72.26" r="33.36"
+        transform="translate(-13.83 85.92) rotate(-26.57)" />
+</svg>
