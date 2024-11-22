@@ -19,12 +19,13 @@ jobs:
           access-key-id: ${{ secrets.AccessKey_ID }}
           access-key-secret: ${{ secrets.Access_Key_Secret }}
       - run: |
+          - run: |
           find . -type f \( \
-          -name "README.md" -o \
-          -name ".gitignore" -o \
-          -name "package.json" -o \
-          -name "theme.json" -o \
-          -name "index.js" \
+            -name "README.md" -o \
+            -name ".gitignore" -o \
+            -name "package.json" -o \
+            -name "theme.json" -o \
+            -name "index.js" \
           \) -prune -o \
           -type d \( \
             -name ".git" -o \
@@ -32,5 +33,5 @@ jobs:
             -name "utils" -o \
             -name "ossutil_output" \
           \) -prune -o \
-          -type f -print | \
-          ossutil cp -rf - oss://jx3box/logo/
+          -type f -print0 | \
+          ossutil cp -rf -i /dev/stdin oss://jx3box/logo/
