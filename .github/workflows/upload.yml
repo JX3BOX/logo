@@ -33,4 +33,4 @@ jobs:
             -name "ossutil_output" \
           \) -prune -o \
           -type f -print | \
-          ossutil cp -rf -i - oss://jx3box/logo/
+          ossutil cp -rf - oss://jx3box/logo/
