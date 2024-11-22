@@ -19,17 +19,18 @@ jobs:
           access-key-id: ${{ secrets.AccessKey_ID }}
           access-key-secret: ${{ secrets.Access_Key_Secret }}
       - run: |
-          ossutil cp -rf . oss://jx3box/logo/ \
-            --exclude "README.md" \
-            --exclude "LICENSE" \
-            --exclude ".git/" \
-            --exclude ".github/" \
-            --exclude ".gitignore" \
-            --exclude ".vscode/" \
-            --exclude "utils/" \
-            --exclude "node_modules/" \
-            --exclude "package-lock.json" \
-            --exclude "package.json" \、
-            --exclude "theme.json" \
-            --exclude "index.js" \
-            --exclude "ossutil_output/"
+          find . -type f \( \
+          -name "README.md" -o \
+          -name ".gitignore" -o \
+          -name "package.json" -o \
+          -name "theme.json" -o \
+          -name "index.js" \
+          \) -prune -o \
+          -type d \( \
+            -name ".git" -o \
+            -name ".github" -o \
+            -name "utils" -o \
+            -name "ossutil_output" \
+          \) -prune -o \
+          -type f -print | \
+          ossutil cp -rf -i - oss://jx3box/logo/
