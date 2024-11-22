@@ -18,21 +18,8 @@ jobs:
           endpoint: "oss-cn-hangzhou.aliyuncs.com"
           access-key-id: ${{ secrets.AccessKey_ID }}
           access-key-secret: ${{ secrets.Access_Key_Secret }}
-      - run: |
-          mkdir -p temp_sync
-          cp -r $(ls -A | grep -v temp_sync) temp_sync/
-          
-          # 删除不需要的文件和文件夹
-          rm -rf temp_sync/.git \
-                temp_sync/.github \
-                temp_sync/utils \
-                temp_sync/ossutil_output \
-                temp_sync/README.md \
-                temp_sync/.gitignore \
-                temp_sync/package.json \
-                temp_sync/theme.json \
-                temp_sync/index.js
-          
-          ossutil sync temp_sync/ oss://jx3box/logo/
-          # 清理临时目录
-          rm -rf temp_sync
+      - run: ossutil cp -rf logo oss://jx3box/logo/logo/
+      - run: ossutil cp -rf logo-dark oss://jx3box/logo/logo-dark/
+      - run: ossutil cp -rf logo-light oss://jx3box/logo/logo-light/
+      - run: ossutil cp -rf logo-golden oss://jx3box/logo/logo-golden/
+      - run: ossutil cp -rf app.json oss://jx3box/logo/
