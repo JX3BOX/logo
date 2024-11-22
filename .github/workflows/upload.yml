@@ -20,10 +20,11 @@ jobs:
           access-key-secret: ${{ secrets.Access_Key_Secret }}
       - run: |
           mkdir -p temp_sync
-          cp -r . temp_sync/
+          cp -r $(ls -A | grep -v temp_sync) temp_sync/
           
           # 删除不需要的文件和文件夹
-          rm -rf temp_sync/.git \temp_sync/.github \
+          rm -rf temp_sync/.git \
+                temp_sync/.github \
                 temp_sync/utils \
                 temp_sync/ossutil_output \
                 temp_sync/README.md \
