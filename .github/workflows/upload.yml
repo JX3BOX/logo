@@ -22,14 +22,14 @@ jobs:
           ossutil cp -rf . oss://jx3box/logo/ \
             --exclude "README.md" \
             --exclude "LICENSE" \
-            --exclude ".git" \
-            --exclude ".github" \
+            --exclude ".git/" \
+            --exclude ".github/" \
             --exclude ".gitignore" \
-            --exclude ".vscode" \
-            --exclude "utils" \
-            --exclude "node_modules" \
+            --exclude ".vscode/" \
+            --exclude "utils/" \
+            --exclude "node_modules/" \
             --exclude "package-lock.json" \
-            --exclude "package.json" \
-            --exclude "README.md" \
+            --exclude "package.json" \、
             --exclude "theme.json" \
-            --exclude "index.js"
+            --exclude "index.js" \
+            --exclude "ossutil_output/"
