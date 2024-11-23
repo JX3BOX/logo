@@ -69,7 +69,7 @@
         { "key": "mall", "label": "积分商城", "remark": "积分兑换好礼", "link": "/vip/mall" },
         { "key": "vip", "label": "会员中心", "remark": "", "link": "/vip" },
         { "key": "team", "label": "团队平台", "remark": "团队管理/快照/排表", "link": "/team" },
-        { "key": "treasure", "label": "奇遇珍卷", "remark": "" },
-        { "key": "seniority", "label": "资历宝典", "remark": "" }
+        { "key": "treasure", "label": "奇遇珍卷", "remark": "/adventure/treasure" },
+        { "key": "seniority", "label": "资历宝典", "remark": "/wiki/achievement/overview" }
     ]
 }
