@@ -12,11 +12,11 @@
         { "key": "macroeditor", "label": "宏编辑器", "remark": "在线宏编辑器", "link": "/macro/macroeditor" },
         { "key": "haste", "label": "加速阈值", "remark": "急速断点一览", "link": "/bps/haste" },
         { "key": "dps", "label": "计算器", "remark": "全门派DPS计算器", "link": "/bps/dps" },
-        { "key": "ladder", "label": "门派天梯", "remark": "", "link": "/bps/ladder" },
+        { "key": "ladder", "label": "门派天梯", "remark": "天梯榜门派综合排名", "link": "/bps/ladder" },
         { "key": "skill", "label": "技能合集", "remark": "技能分类集合", "link": "/bps/kungfu" },
         { "key": "raw", "label": "技能大全", "remark": "门派技能原始数据", "link": "/bps/raw" },
         { "key": "changelog", "label": "技改历史", "remark": "技改历史一览", "link": "/bps/changelog" },
-        { "key": "lua", "label": "技能源码", "remark": "", "link": "/fb/lua" },
+        { "key": "lua", "label": "技能源码", "remark": "技能脚本精析", "link": "/fb/lua" },
         { "key": "drop", "label": "掉落查询", "remark": "副本掉落大全", "link": "/fb/drop" },
         { "key": "gem", "label": "瑰石查询", "remark": "副本预测掉落,帮会瑰石大全", "link": "/fb/gem" },
         { "key": "baizhan", "label": "百战查询", "remark": "百战技能查询", "link": "/fb/baizhan" },
@@ -67,9 +67,9 @@
     ],
     "other": [
         { "key": "mall", "label": "积分商城", "remark": "积分兑换好礼", "link": "/vip/mall" },
-        { "key": "vip", "label": "会员中心", "remark": "", "link": "/vip" },
+        { "key": "vip", "label": "会员中心", "remark": "专业版账号与权益", "link": "/vip" },
         { "key": "team", "label": "团队平台", "remark": "团队管理/快照/排表", "link": "/team" },
-        { "key": "treasure", "label": "奇遇珍卷", "remark": "/adventure/treasure" },
-        { "key": "seniority", "label": "资历宝典", "remark": "/wiki/achievement/overview" }
+        { "key": "treasure", "label": "奇遇珍卷", "remark": "我的奇遇一览","link": "/adventure/treasure" },
+        { "key": "seniority", "label": "资历宝典", "remark": "成就渡劫好帮手","link": "/wiki/achievement/overview" }
     ]
 }
