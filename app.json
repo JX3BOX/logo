@@ -24,7 +24,7 @@
     ],
     "pvp": [
         { "key": "trick", "label": "连招技巧", "remark": "竞技全攻略", "link": "/pvp" },
-        { "key": "kungfu", "label": "武学研习", "remark": "技能音效、技能详解", "link": "pvp/index" },
+        { "key": "kungfu", "label": "武学研习", "remark": "技能音效、技能详解", "link": "/pvp/index" },
         { "key": "changelog", "label": "技改历史", "remark": "技改历史一览", "link": "/pvp/changelog" },
         { "key": "desert", "label": "绝境战场", "remark": "吃鸡全指南", "link": "/pvp/desert" },
         { "key": "sandbox", "label": "沙盘查询", "remark": "全服攻防沙盘", "link": "/pvp/sandbox" }
