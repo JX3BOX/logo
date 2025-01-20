@@ -51,7 +51,7 @@
         { "key": "wbl", "label": "万宝楼", "remark": "万宝楼（缘起）","link":"https://jx3yq.seasunwbl.com/buyer?t=coin" }
     ],
     "common": [
-        { "key": "community", "label": "论坛", "remark": "剑三攻略心得分享", "link": "community" },
+        { "key": "community", "label": "论坛", "remark": "剑三攻略心得分享", "link": "/community" },
         { "key": "tool", "label": "工具", "remark": "剑三小工具/插件指南", "link": "/tool" },
         { "key": "database", "label": "剑三数据库", "remark": "技能/Buff/NPC/交互查询", "link": "/app/database" },
         { "key": "icon", "label": "图标大全", "remark": "剑三图标库/官方聊天表情", "link": "/app/design" },
