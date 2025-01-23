@@ -1,5 +1,6 @@
 {
     "dark": ["#ccc", "#4080ff"],
     "light": ["#1c1c1c", "#4080ff"],
-    "golden": ["#fedaa3", "#44afff"]
+    "golden": ["#fedaa3", "#44afff"],
+    "origin": ["#000", "#000"]
 }
