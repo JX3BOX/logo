@@ -42,6 +42,8 @@
         { "key": "reputation", "label": "声望大全", "remark": "声望剧情党手册", "link": "/reputation" },
         { "key": "book", "label": "书籍大全", "remark": "我们都是读书人", "link": "/book" },
         { "key": "exam", "label": "考试大全", "remark": "趣味题目/试卷", "link": "/exam" },
+        { "key": "treasure", "label": "奇遇珍卷", "remark": "我的奇遇一览","link": "/adventure/treasure" },
+        { "key": "seniority", "label": "资历宝典", "remark": "成就渡劫好帮手","link": "/wiki/achievement/overview" },
         { "key": "face", "label": "捏脸数据", "remark": "捏脸数据下载", "link": "/face" },
         { "key": "body", "label": "体型数据", "remark": "体型数据下载", "link" : "/body"},
         { "key": "manufacture", "label": "技艺助手", "remark": "生活技艺模拟器", "link": "/pvg/manufacture" },
@@ -52,14 +54,15 @@
     ],
     "common": [
         { "key": "community", "label": "论坛", "remark": "剑三攻略心得分享", "link": "/community" },
+        { "key": "joke", "label": "骚话", "remark": "剑三骚话大全", "link": "/joke" },
+        { "key": "emotion", "label": "趣图", "remark": "剑三表情大全", "link": "/emotion" },
+        { "key": "collection", "label": "小册", "remark": "文集小册", "link": "/collection" },
+        { "key": "namespace", "label": "铭牌", "remark": "剑网3.com", "link" : "/namespace"},
         { "key": "tool", "label": "工具", "remark": "剑三小工具/插件指南", "link": "/tool" },
         { "key": "database", "label": "剑三数据库", "remark": "技能/Buff/NPC/交互查询", "link": "/app/database" },
         { "key": "icon", "label": "图标大全", "remark": "剑三图标库/官方聊天表情", "link": "/app/design" },
         { "key": "dbm", "label": "在线构建", "remark": "剑三插件数据/用户云数据", "link": "/dbm" },
-        { "key": "joke", "label": "骚话", "remark": "剑三骚话大全", "link": "/joke" },
-        { "key": "emotion", "label": "趣图", "remark": "剑三表情大全", "link": "/emotion" },
-        { "key": "collection", "label": "小册", "remark": "文集小册", "link": "/collection" },
-        { "key": "namespace", "label": "铭牌", "remark": "剑网3.com", "link" : "/namespace"}
+        { "key": "team", "label": "团队平台", "remark": "团队管理/快照/排表", "link": "/team" }
     ],
     "special": [
         { "key": "topic", "label": "资料片专题", "remark": "历届资料片专题", "link": "/topic" },
@@ -67,9 +70,6 @@
     ],
     "other": [
         { "key": "mall", "label": "积分商城", "remark": "积分兑换好礼", "link": "/vip/mall" },
-        { "key": "vip", "label": "会员中心", "remark": "专业版账号与权益", "link": "/vip" },
-        { "key": "team", "label": "团队平台", "remark": "团队管理/快照/排表", "link": "/team" },
-        { "key": "treasure", "label": "奇遇珍卷", "remark": "我的奇遇一览","link": "/adventure/treasure" },
-        { "key": "seniority", "label": "资历宝典", "remark": "成就渡劫好帮手","link": "/wiki/achievement/overview" }
+        { "key": "vip", "label": "会员中心", "remark": "专业版账号与权益", "link": "/vip" }
     ]
 }
