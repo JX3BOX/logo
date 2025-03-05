@@ -16,7 +16,7 @@
         { "key": "skill", "label": "技能合集", "remark": "技能分类集合", "link": "/bps/kungfu" },
         { "key": "raw", "label": "技能大全", "remark": "门派技能原始数据", "link": "/bps/raw" },
         { "key": "changelog", "label": "技改历史", "remark": "技改历史一览", "link": "/bps/changelog" },
-        { "key": "lua", "label": "技能源码", "remark": "技能脚本精析", "link": "/fb/lua" },
+        { "key": "lua", "label": "技能源码", "remark": "技能脚本精析", "link": "/bps/lua" },
         { "key": "drop", "label": "掉落查询", "remark": "副本掉落大全", "link": "/fb/drop" },
         { "key": "gem", "label": "瑰石查询", "remark": "副本预测掉落,帮会瑰石大全", "link": "/fb/gem" },
         { "key": "baizhan", "label": "百战查询", "remark": "百战技能查询", "link": "/fb/baizhan" },
@@ -70,6 +70,7 @@
     ],
     "other": [
         { "key": "mall", "label": "积分商城", "remark": "积分兑换好礼", "link": "/vip/mall" },
-        { "key": "vip", "label": "会员中心", "remark": "专业版账号与权益", "link": "/vip" }
+        { "key": "lottery", "label": "积分抽奖", "remark": "参与抽奖", "link": "/vip/lottery" },
+        { "key": "vip", "label": "会员中心", "remark": "专业版账号与权益", "link": "/vip/premium" }
     ]
 }
