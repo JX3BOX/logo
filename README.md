@@ -36,9 +36,10 @@ theme.json
 ```json
 {
     // key: dark对应需要转换至的文件夹及主题颜色名，value是颜色值[cls-1, cls-2]
-    "dark": ["#ccc", "#4080ff"],
-    "light": ["#1c1c1c", "#4080ff"],
-    "golden": ["#fedaa3", "#4080ff"]
+    // 2026.04.07 修改配色：蓝 > 紫
+    "dark": ["#ccc", "#7d86fb"],
+    "light": ["#242424", "#615fff"],
+    "golden": ["#fedaa3", "#7d86fb"]
 }
 ```
 
