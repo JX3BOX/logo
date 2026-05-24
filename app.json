@@ -27,7 +27,8 @@
         { "key": "kungfu", "label": "武学研习", "remark": "技能音效、技能详解", "link": "/pvp/index","client":["std","origin"] },
         { "key": "changelog", "label": "技改历史", "remark": "技改历史一览", "link": "/pvp/changelog","client":["std","origin"] },
         { "key": "desert", "label": "绝境战场", "remark": "吃鸡全指南", "link": "/pvp/desert","client":["std"] },
-        { "key": "sandbox", "label": "沙盘查询", "remark": "全服攻防沙盘", "link": "/pvp/sandbox","client":["std"] }
+        { "key": "sandbox", "label": "沙盘查询", "remark": "全服攻防沙盘", "link": "/pvp/sandbox","client":["std"] },
+        { "key": "arenatower", "label": "扬刀大会", "remark": "扬刀大会图鉴", "link": "/pvp/arenatower","client":["std"] }
     ],
     "pvx": [
         { "key": "cj", "label": "成就百科", "remark": "最新最全成就百科", "link": "/cj","client":["std","origin"] },
